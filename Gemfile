@@ -14,7 +14,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-# Use HAML instead of ERB
+# Adding option to use Haml
 gem 'haml', '~> 4.0.5'
 # Use paperclip for image uploading
 gem "paperclip", "~> 4.3"

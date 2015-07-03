@@ -1,0 +1,5 @@
+<h1>Photobomb</h1>
+<% @post.each do |p| %>
+  <%= image_tag p.image.url(:medium)  %>
+  <%= p.caption %>
+<% end %>
