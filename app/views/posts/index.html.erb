@@ -1,15 +1,15 @@
-<div class="post-wrapper row">
   <% @post.each do |p| %>
-    <div class="post">
-      <div class="post-head">
-        <div class="name">
-          Jasen Carroll
+    <div class="posts-wrapper row">
+      <div class="post">
+        <div class="post-head">
+          <div class="name">
+            Jasen Carroll
+          </div>
         </div>
-      </div>
-      <div class="image center-block">
-        <%= link_to (image_tag p.image.url(:medium), class:'img-responsive'), post_path(p)  %>
-        <p class="caption"><%= p.caption %></p>
+        <div class="image center-block">
+          <%= link_to (image_tag p.image.url(:medium), class:'img-responsive'), post_path(p)  %>
+          <p class="caption"><%= p.caption %></p>
+        </div>
       </div>
     </div>
   <% end %>
-</div>
