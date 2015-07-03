@@ -1,5 +1,16 @@
 <h1>Photobomb</h1>
-<% @post.each do |p| %>
-  <%= image_tag p.image.url(:medium)  %>
-  <%= p.caption %>
+<div class="post-wrapper row">
+  <% @post.each do |p| %>
+    <div class="post">
+      <div class="post-head">
+        <div class="name">
+          Jasen Carroll
+        </div>
+      </div>
+      <div class="image cetner-block">
+        <%= image_tag p.image.url(:medium)  %>
+        <p class="caption"><%= p.caption %></p>
+      </div>
+    </div>
+  </div>
 <% end %>
