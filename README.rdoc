@@ -1,28 +1,8 @@
-== README
+== Photobomb
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This is an Instagram clone application I started developing from Ben Walker's
+[Dev Walks](http://www.devwalks.com/). I have successfully completed part 1, but
+decided to take on some other projects to gain a better understanding of what
+exactly Ruby on Rails is accomplishing instead of being lost in the magic.
+I look forward to completing his series and returning to a Rails project now
+that most things will not be foreign concepts to me.
